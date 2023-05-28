@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+nav{
+    position: fixed;
+}
+
+/* --------------Job Section -------------*/
+.job-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.description {
+    font-family: 'Oswald', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #555555;
+    line-height: 200%
+}
+
+button{
+    box-shadow: 1px 4px 8px 2px #dcdde1;
+}
+
+.profile-image {
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.social-media-link{
+    height: 80px;
+    width: 80px;
+    background-color: #f5f6fa;
+    border-radius: 40px;
+    text-align: center;
+    margin: 10px;
+    line-height: 90px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+    transition: all 0.3s ease;
+}
+
+.social-media-link:hover{
+    transform: scale(1.2);
+}
+
+.fa-linkedin{
+    color: #0A66C2;
+}
+
+.fa-github{
+    color: #161B22;
+}
+
+.fa-quora{
+    color: #B72C27;
+}
+
+.fa-twitter{
+    color: #1DA1F2;
+}
+
+.fa-instagram{
+    color: #F602B1;
+}
+
+/* --------------About Section -------------*/
+
+.about-section {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.section-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.about-text {
+    font-family: 'Oswald', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #555555;
+    line-height: 200%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+.footer-text {
+    margin-bottom: 10px;
+}
+  
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+  
+.footer-link:hover {
+    color: #f1f1f1;
+}
+  
